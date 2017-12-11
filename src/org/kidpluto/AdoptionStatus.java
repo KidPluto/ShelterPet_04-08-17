@@ -5,6 +5,8 @@ package org.kidpluto;
  */
 public enum AdoptionStatus {
 
-    REQUEST, RETURN, REVIEW, CLOSE;
-
+    REQUEST,
+    RETURN,
+    REVIEW,
+    CLOSE;
 }
