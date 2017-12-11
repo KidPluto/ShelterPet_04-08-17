@@ -30,3 +30,41 @@ public class Shelter {
   private Set<Pet> pets;
 }
 ````
+````code
+@Entity
+publid ApplicationStatus {
+  @Id
+  private int id;
+  private ENUM 
+}
+````
+````code
+@Entity
+public Application {
+  @Id
+  private int id;
+  private ApplicationStatus status
+}
+````
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
