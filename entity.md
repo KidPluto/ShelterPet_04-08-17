@@ -7,18 +7,15 @@ public class Person {
   private int id;
   private String name;
   private String email;
+  private Address address;
 }
 ````
 ````code
 @Entity
 public class Pet {
   @Id
-  private int id;
-  private Date start;
-  private Date finish;
-  private String description;
-  @OneToMany
-  private Set<Person> attendees;
+  private int PetFinderDotComId;
+    
 }
 ````
 ````code
@@ -27,11 +24,9 @@ public class Shelter {
   @Id
   private int PetFinderDotComId;
   
-  private int month;
-  private int year;
+  private Address address;
+ 
   @OneToMany
-  private Set<Meeting> meetings;
-  @OneToMany
-  private Set<Person> sharedWith;
+  private Set<Pet> pets;
 }
 ````
