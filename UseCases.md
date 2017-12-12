@@ -1,5 +1,8 @@
 # UseCases
 
+* Request to send adoption application
+  * Shelter manager submits the email address of the prospective adoptor
+  * Email is sent, with unique link to adoption application
 * Request adoption application
   * Prospective adoptor requests application
   * Information which can be included with the request
